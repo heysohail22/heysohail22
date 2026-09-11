@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hi, I'm Sohel Islam 👋
 
-<!--
-**sohail22dec/sohail22dec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Building Generative AI & Agentic AI Systems
 
-Here are some ideas to get you started:
+I build AI applications using LLMs, RAG, agents, and modern AI frameworks.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 What I'm Building
+
+- 🤖 Agentic AI systems
+- 🧠 RAG & LLM applications
+- 🔗 LangChain & LangGraph workflows
+- 🛡️ AI Guardrails & Evaluations
+- ⚡ Production-oriented AI applications
+
+### 🛠️ Tech Stack
+
+Python • LangChain • LangGraph • RAG • LLMs • MCP • FastAPI • Vector Databases
+
+### 📌 Featured Projects
+
+**Cortex — Agentic RAG**
+
+Agentic RAG system focused on retrieval, reasoning, guardrails, and evaluation.
+
+**DataPilot — SQL Agent**
+
+AI-powered SQL agent that allows users to interact with databases using natural language.
+
+**Vanni — Book Voice Agent**
+
+Voice-based AI agent for interacting with books through conversation.
+
+### 📫 Connect With Me
+
+[LinkedIn](YOUR_LINKEDIN_URL) • [X](YOUR_X_URL)
