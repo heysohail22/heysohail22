@@ -19,55 +19,36 @@ Building reliable AI systems that solve real-world problems.
 </p>
 
 <br/>
-<br/>
 
 </div>
 
 ---
 
-# 01 · HOW I BUILD AI SYSTEMS
+# 01 / HOW I BUILD AI SYSTEMS
 
-> **Building an agentic system isn't just about connecting an LLM to a tool.**
->
-> The real engineering challenge is making the system **reliable, measurable, safe, efficient, and production-ready.**
-
-<br/>
+> I focus on the engineering problems that make agentic systems
+> **reliable, measurable, efficient, and production-ready.**
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-## 01 · DESIGN
+### 01 / BUILD
 
-### Build the right system
+**Design agentic workflows around the problem.**
 
-I design AI workflows around the problem rather than around a specific model or framework.
-
-- Stateful agent workflows
-- Multi-agent orchestration
-- Tool calling
-- Context engineering
-- Deterministic control flow
-- Human-in-the-loop workflows
+Agent orchestration · Tool calling · Context engineering · Deterministic workflows
 
 </td>
 
 <td width="50%" valign="top">
 
-## 02 · RETRIEVE
+### 02 / RETRIEVE
 
-### Give the model the right context
+**Give the model the right information.**
 
-Good generation starts with reliable information.
-
-- RAG
-- Corrective RAG
-- Query routing
-- Retrieval pipelines
-- Vector search
-- Grounded generation
-- Retrieval evaluation
+RAG · Corrective RAG · Query routing · Grounded generation
 
 </td>
 
@@ -77,84 +58,26 @@ Good generation starts with reliable information.
 
 <td width="50%" valign="top">
 
-## 03 · CONTROL
+### 03 / EVALUATE & GUARD
 
-### Keep probabilistic systems predictable
+**Make probabilistic systems reliable and safe.**
 
-Production AI needs boundaries around what the model is allowed to do.
-
-- AI guardrails
-- Prompt-injection protection
-- PII protection
-- Structured outputs
-- Input / output validation
-- Human approval gates
-- Deterministic security checks
+Guardrails · Prompt-injection protection · Evaluation · HITL
 
 </td>
 
 <td width="50%" valign="top">
 
-## 04 · MEASURE
+### 04 / OPTIMIZE & DEPLOY
 
-### Know whether the system actually works
+**Make systems efficient and production-ready.**
 
-I treat evaluation as part of the system, not an afterthought.
-
-- LLM-as-a-Judge
-- Faithfulness
-- Answer relevance
-- Route accuracy
-- Automated evaluations
-- Safety evaluation
-- Regression testing
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 05 · OPTIMIZE
-
-### Make AI systems cheaper and faster
-
-A working system is only the beginning.
-
-- Token reduction
-- Context optimization
-- Model routing
-- Prompt caching
-- Latency optimization
-- Model selection
-- Inference optimization
-
-</td>
-
-<td width="50%" valign="top">
-
-## 06 · DEPLOY
-
-### Turn the system into a real product
-
-AI systems need reliable infrastructure around them.
-
-- FastAPI
-- PostgreSQL
-- Docker
-- AWS
-- REST / SSE APIs
-- CI/CD
-- Production monitoring
+Token optimization · Model routing · Latency · FastAPI · Docker · AWS
 
 </td>
 
 </tr>
 </table>
-
----
 
 # 02 · WHAT I OPTIMIZE FOR
 
@@ -300,95 +223,84 @@ LATENCY**
 
 ---
 
-# 04 · PROBLEM → SOLUTION → RESULT
+# 02 / PROBLEM → SOLUTION → RESULT
 
-## Reducing AI Cost
+> I focus on measurable engineering outcomes — not just making an AI system work.
 
-### Problem
+<table>
+<tr>
 
-Large context windows and unnecessary model calls can dramatically increase inference cost.
+<td width="50%" valign="top">
 
-### Approach
+### COST
 
-I reduced the amount of information sent to the model through:
+**Problem**  
+Large context and unnecessary model calls increased inference cost.
 
-- Relational schema pruning
-- Dynamic context sizing
-- Model routing
-- Prompt caching
-- Deterministic logic where an LLM wasn't necessary
+**Solution**  
+Schema pruning · Dynamic context · Model routing · Prompt caching
 
-### Result
+**Result**
 
-**85% lower end-to-end query token consumption**
+## 85% ↓
+**Token consumption**
 
-and
+</td>
 
-**74% lower inference token cost**
+<td width="50%" valign="top">
 
----
+### RELIABILITY
 
-## Improving RAG Reliability
+**Problem**  
+RAG systems can retrieve information that doesn't sufficiently support the answer.
 
-### Problem
+**Solution**  
+Corrective RAG · Query routing · Groundedness evaluation
 
-Retrieval alone does not guarantee that an answer will be grounded in the retrieved information.
+**Result**
 
-### Approach
+## 87.0%
+**Groundedness**
 
-I built a corrective retrieval architecture that can route queries between:
+</td>
 
-**Vector Search → Web Search → Direct LLM**
+</tr>
 
-and evaluate the resulting response for groundedness and relevance.
+<tr>
 
-### Result
+<td width="50%" valign="top">
 
-**100% route accuracy across 27 evaluation benchmarks**
+### SAFETY
 
-**87.0% groundedness**
+**Problem**  
+LLMs can behave unpredictably when exposed to unsafe or adversarial inputs.
 
-**88.9% answer relevance**
+**Solution**  
+Guardrails · Prompt-injection protection · PII redaction · HITL
 
----
+**Result**
 
-## Controlling LLM Behavior
+## 100%
+**Safety / injection blocking**
 
-### Problem
+</td>
 
-LLMs are probabilistic, while production systems often require predictable safety boundaries.
+<td width="50%" valign="top">
 
-### Approach
+### PERFORMANCE
 
-I added multiple layers of control:
+**Problem**  
+Slow tool execution can break real-time AI interactions.
 
-- Prompt-injection protection
-- Guardrails
-- PII redaction
-- Structured validation
-- Deterministic security checks
-- Human-in-the-loop approval
+**Solution**  
+Optimized FastAPI webhook tools and backend workflows.
 
-### Result
+**Result**
 
-**100% safety / prompt-injection blocking in the reported evaluation**
+## <200ms
+**Tool execution**
 
----
+</td>
 
-## Making Voice Agents Fast
-
-### Problem
-
-Slow tool execution can break the flow of a real-time voice conversation.
-
-### Approach
-
-I built FastAPI webhook tools for real-time availability lookups and optimized the reservation workflow.
-
-### Result
-
-**<200ms tool execution latency**
-
-with
-
-**95%+ successful booking completion**
+</tr>
+</table>
