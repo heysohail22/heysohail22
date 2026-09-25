@@ -1,160 +1,394 @@
-# Hi, I'm Sohel 👋
+<div align="center">
 
-### Generative AI Engineer · Agentic AI · Python
+# SOHAIL ISLAM
 
-I build practical AI systems using **LLMs, RAG, agents, and tool calling**.
+### AI ENGINEER · AGENTIC SYSTEMS · LLMs
 
-Currently focused on building reliable AI applications — from
-**architecture and retrieval to evaluation and deployment.**
+Building reliable AI systems that solve real-world problems.
 
-<p align="left">
-  <a href="YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="YOUR_PORTFOLIO">
-    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="mailto:YOUR_EMAIL">
-    <img src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+**Agents · RAG · Evaluation · Guardrails · Optimization · Production**
+
+<br/>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/heysohail22"><strong>LinkedIn</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="YOUR_RESUME_URL"><strong>Resume</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:sohelsilamblg01@gmail.com"><strong>Email</strong></a>
 </p>
+
+<br/>
+<br/>
+
+</div>
 
 ---
 
-## 🧠 What I Build
+# 01 · HOW I BUILD AI SYSTEMS
 
-- 🤖 Agentic AI systems
-- 🔎 Retrieval-Augmented Generation (RAG)
-- 🧩 Multi-agent workflows
-- 🛠️ LLM applications with tool calling
-- 🛡️ AI guardrails & evaluations
-- 🚀 Production-ready AI APIs
+> **Building an agentic system isn't just about connecting an LLM to a tool.**
+>
+> The real engineering challenge is making the system **reliable, measurable, safe, efficient, and production-ready.**
 
----
-
-## ⚡ Tech Stack
-
-### AI / LLM
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
-<img src="https://img.shields.io/badge/RAG-6E56CF?style=flat-square"/>
-<img src="https://img.shields.io/badge/LLMs-111111?style=flat-square"/>
-<img src="https://img.shields.io/badge/MCP-111111?style=flat-square"/>
-</p>
-
-### Backend / Infrastructure
-
-<p>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-</p>
-
----
-
-# 🚀 Featured Projects
+<br/>
 
 <table>
 <tr>
-<td width="50%">
 
-### 🧠 Cortex
+<td width="50%" valign="top">
 
-**Agentic RAG System**
+## 01 · DESIGN
 
-A document-aware AI system that combines retrieval,
-reasoning, web search, guardrails, and evaluation.
+### Build the right system
 
-**Built with**
+I design AI workflows around the problem rather than around a specific model or framework.
 
-`LangGraph` `RAG` `LLMs` `Guardrails` `Evals`
+- Stateful agent workflows
+- Multi-agent orchestration
+- Tool calling
+- Context engineering
+- Deterministic control flow
+- Human-in-the-loop workflows
 
-[View Project →](YOUR_LINK)
+</td>
+
+<td width="50%" valign="top">
+
+## 02 · RETRIEVE
+
+### Give the model the right context
+
+Good generation starts with reliable information.
+
+- RAG
+- Corrective RAG
+- Query routing
+- Retrieval pipelines
+- Vector search
+- Grounded generation
+- Retrieval evaluation
 
 </td>
 
-<td width="50%">
-
-### 📊 DataPilot
-
-**AI SQL Agent**
-
-An AI-powered data analysis system that converts
-natural-language questions into SQL queries and retrieves
-the required information.
-
-**Built with**
-
-`Python` `LLMs` `SQL` `Supabase` `Agents`
-
-[View Project →](YOUR_LINK)
-
-</td>
 </tr>
 
 <tr>
-<td width="50%">
 
-### 📚 Vanni
+<td width="50%" valign="top">
 
-**Book Voice Agent**
+## 03 · CONTROL
 
-A voice-based AI agent that lets users interact with
-and explore books through natural conversation.
+### Keep probabilistic systems predictable
 
-**Built with**
+Production AI needs boundaries around what the model is allowed to do.
 
-`Voice AI` `Agents` `LLMs` `Python`
+- AI guardrails
+- Prompt-injection protection
+- PII protection
+- Structured outputs
+- Input / output validation
+- Human approval gates
+- Deterministic security checks
 
-[View Project →](YOUR_LINK)
+</td>
+
+<td width="50%" valign="top">
+
+## 04 · MEASURE
+
+### Know whether the system actually works
+
+I treat evaluation as part of the system, not an afterthought.
+
+- LLM-as-a-Judge
+- Faithfulness
+- Answer relevance
+- Route accuracy
+- Automated evaluations
+- Safety evaluation
+- Regression testing
 
 </td>
 
-<td width="50%">
+</tr>
 
-### 🔬 More Projects
+<tr>
 
-I'm continuously experimenting with
-AI agents, RAG systems, evaluations,
-and LLM-powered applications.
+<td width="50%" valign="top">
 
-[View GitHub →](https://github.com/heysohail22)
+## 05 · OPTIMIZE
+
+### Make AI systems cheaper and faster
+
+A working system is only the beginning.
+
+- Token reduction
+- Context optimization
+- Model routing
+- Prompt caching
+- Latency optimization
+- Model selection
+- Inference optimization
 
 </td>
+
+<td width="50%" valign="top">
+
+## 06 · DEPLOY
+
+### Turn the system into a real product
+
+AI systems need reliable infrastructure around them.
+
+- FastAPI
+- PostgreSQL
+- Docker
+- AWS
+- REST / SSE APIs
+- CI/CD
+- Production monitoring
+
+</td>
+
 </tr>
 </table>
 
 ---
 
-## 📈 GitHub Activity
+# 02 · WHAT I OPTIMIZE FOR
 
-<p align="center">
-  <img src="YOUR_GITHUB_STATS_IMAGE" />
-</p>
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center" width="20%">
+
+### RELIABILITY
+
+Correct  
+Grounded  
+Consistent
+
+</td>
+
+<td align="center" width="20%">
+
+### SAFETY
+
+Guardrails  
+Validation  
+Human Control
+
+</td>
+
+<td align="center" width="20%">
+
+### COST
+
+Less Context  
+Less Tokens  
+Better Routing
+
+</td>
+
+<td align="center" width="20%">
+
+### LATENCY
+
+Fast Retrieval  
+Fast Tools  
+Efficient Models
+
+</td>
+
+<td align="center" width="20%">
+
+### EVALUATION
+
+Measure  
+Test  
+Improve
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+**Problem → Architecture → Evaluation → Optimization → Production**
+
+</div>
 
 ---
 
-## 🌱 Currently Learning
+# 03 · ENGINEERING OUTCOMES
 
-- Agentic AI architecture
-- LLM evaluation
-- AI observability
-- Model optimization
-- Production AI systems
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center" width="16%">
+
+## 85%
+
+**TOKEN  
+REDUCTION**
+
+</td>
+
+<td align="center" width="16%">
+
+## 99.6%
+
+**DATA  
+FAITHFULNESS**
+
+</td>
+
+<td align="center" width="16%">
+
+## 100%
+
+**ROUTE  
+ACCURACY**
+
+</td>
+
+<td align="center" width="16%">
+
+## 74%
+
+**INFERENCE COST  
+REDUCTION**
+
+</td>
+
+<td align="center" width="16%">
+
+## 95%+
+
+**BOOKING  
+SUCCESS**
+
+</td>
+
+<td align="center" width="16%">
+
+## <200ms
+
+**TOOL  
+LATENCY**
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+> These numbers represent outcomes from the systems and evaluation benchmarks documented in my projects.
 
 ---
 
-## 🤝 Let's Connect
+# 04 · PROBLEM → SOLUTION → RESULT
 
-I'm interested in **GenAI, Agentic AI, LLM applications, and AI engineering**.
+## Reducing AI Cost
 
-<p align="left">
-  <a href="YOUR_LINKEDIN">LinkedIn</a> ·
-  <a href="YOUR_PORTFOLIO">Portfolio</a> ·
-  <a href="YOUR_EMAIL">Email</a>
-</p>
+### Problem
+
+Large context windows and unnecessary model calls can dramatically increase inference cost.
+
+### Approach
+
+I reduced the amount of information sent to the model through:
+
+- Relational schema pruning
+- Dynamic context sizing
+- Model routing
+- Prompt caching
+- Deterministic logic where an LLM wasn't necessary
+
+### Result
+
+**85% lower end-to-end query token consumption**
+
+and
+
+**74% lower inference token cost**
+
+---
+
+## Improving RAG Reliability
+
+### Problem
+
+Retrieval alone does not guarantee that an answer will be grounded in the retrieved information.
+
+### Approach
+
+I built a corrective retrieval architecture that can route queries between:
+
+**Vector Search → Web Search → Direct LLM**
+
+and evaluate the resulting response for groundedness and relevance.
+
+### Result
+
+**100% route accuracy across 27 evaluation benchmarks**
+
+**87.0% groundedness**
+
+**88.9% answer relevance**
+
+---
+
+## Controlling LLM Behavior
+
+### Problem
+
+LLMs are probabilistic, while production systems often require predictable safety boundaries.
+
+### Approach
+
+I added multiple layers of control:
+
+- Prompt-injection protection
+- Guardrails
+- PII redaction
+- Structured validation
+- Deterministic security checks
+- Human-in-the-loop approval
+
+### Result
+
+**100% safety / prompt-injection blocking in the reported evaluation**
+
+---
+
+## Making Voice Agents Fast
+
+### Problem
+
+Slow tool execution can break the flow of a real-time voice conversation.
+
+### Approach
+
+I built FastAPI webhook tools for real-time availability lookups and optimized the reservation workflow.
+
+### Result
+
+**<200ms tool execution latency**
+
+with
+
+**95%+ successful booking completion**
