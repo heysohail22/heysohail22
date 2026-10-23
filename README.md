@@ -298,7 +298,7 @@ Optimized FastAPI webhook tools and backend workflows.
 **Result**
 
 ## <200ms
-**Tool executio**
+**Tool execution**
 
 </td>
 
